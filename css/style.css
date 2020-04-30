@@ -1,0 +1,84 @@
+/* il faut définir la hauteur dès la première information pour qu'elle fonctionne après */
+#rail{
+	width: 400%;
+	height :100%;
+}
+.slide{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	position : relative;
+}
+
+#slide1{
+	background-image: url(../image/min/FondV.png);
+	background-size: cover;
+}
+
+#slide2{
+	background-size: cover;
+	background-image: url(../image/min/ppa1.png);
+}
+
+#slide3{
+	background-size: cover;
+	background-image: url(../image/min/Mars1.png);
+}
+
+#slide4{
+	background-size: cover;
+	background-image: url(../image/min/Ville3Min.png);
+}
+
+#window{
+	width: 20%;
+	height: 18%;
+	border: 2px solid black;
+	overflow: hidden;
+	position: absolute;
+	top: 30%;
+	right: 42%;
+	z-index: 1000;
+}
+
+#btnLast{
+	background-color: red;
+	position: absolute;
+	color:green;
+	top: 44%;
+	right: 37%;
+	z-index: 10000;
+}
+
+#btnNext {
+	background-color : red;
+	position: absolute;
+	color: green;
+	z-index: 10000;
+	top: 44%;
+	right: 31.9%;
+}
+
+#nous{
+	width : 42%;
+	z-index: 10;
+	position: absolute;
+	top : 25%;
+	right: 2%;
+}
+#scene{
+	position: relative;
+	background-image: url(../image/fondVert.png);
+	background-size:cover;
+}
+
+
+#appareil {
+	height : 100%;
+	width : 100%;
+	position : relative;
+	z-index: 100;
+	top: 0px;
+}
+
+
